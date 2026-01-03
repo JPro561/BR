@@ -1,4 +1,4 @@
-import type { Token } from "./lexer";
+import type { Token } from "../lexer";
 export type Stmt = {
     kind: "VarDecl";
     name: string;
